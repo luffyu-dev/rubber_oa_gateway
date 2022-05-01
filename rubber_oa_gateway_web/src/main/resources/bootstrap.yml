@@ -1,0 +1,24 @@
+server:
+  port: 38010
+
+spring:
+  application:
+    name: rubber-oa-gateway-web
+  cloud:
+    nacos:
+      config:
+        file-extension: yml
+        namespace: rubber-dev
+        server-addr: 192.168.1.104:28848
+  main:
+    allow-bean-definition-overriding: true
+
+
+rubber:
+  proxy:
+    set:
+      dbInstance: oaAdminInstance
+dubbo:
+  protocol:
+    port: 48010
+    name: json

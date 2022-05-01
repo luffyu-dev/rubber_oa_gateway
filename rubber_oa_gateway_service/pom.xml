@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>rubber_oa_gateway</artifactId>
+        <groupId>com.rubber</groupId>
+        <version>1.1.0-ALPHA</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>rubber_oa_gateway_service</artifactId>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.rubber</groupId>
+            <artifactId>rubber_basic_service_boot_start</artifactId>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.rubber</groupId>
+            <artifactId>rubber_oa_gateway_dao</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.rubber</groupId>
+            <artifactId>rubber_oa_gateway_api</artifactId>
+        </dependency>
+
+
+    </dependencies>
+
+</project>
